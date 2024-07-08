@@ -1,8 +1,14 @@
-# React + Vite
+Markdown Previewer
+This project is a simple Markdown Previewer built with React. It allows users to input HTML code into a textarea, which is then automatically parsed and displayed in a div container below the textarea. The project also features the ability to maximize the textarea and the container displaying the parsed HTML.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:-
+1. Real-time HTML Parsing: The HTML code entered in the textarea is parsed and displayed in real-time.
+2. Resizable Areas: Users can maximize both the textarea and the container displaying the parsed HTML for better editing and viewing experience.
+3. React Integration: Built with React, making the app fast, responsive, and easy to extend.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used:-
+1. React: For building the user interface.
+2. JavaScript (ES6): For scripting.
+3. HTML: For the structure of the web application.
+4. CSS: For styling the web application.
+5. html-react-parser: For parsing and rendering HTML code in React components.
