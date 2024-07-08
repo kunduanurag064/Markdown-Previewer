@@ -1,0 +1,59 @@
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editor-header{
+  max-width: 67.3ch; 
+  min-width: 67.3ch;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: aquamarine;
+}
+
+textarea {
+  max-width: 75ch; 
+  min-width: 75ch;
+  min-height: 30ch;
+  box-sizing: border-box; 
+  box-shadow: 1px 1px 2px 2px;
+  border: none;
+}
+
+.preview-header{
+  max-width: 80ch; 
+  min-width: 80ch;
+  padding: 5px;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.preview-container{
+  min-height: 20px;
+  max-width: 80ch; 
+  min-width: 80ch;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+
+.textarea-maximized{
+  max-width: 75ch; 
+  min-width: 75ch;
+  min-height: 75ch;
+  box-sizing: border-box; 
+  box-shadow: 1px 1px 2px 2px;
+  border: none;
+
+}
+
+.preview-container-maximize{
+  min-height: auto;
+  max-width: 80ch; 
+  min-width: 80ch;
+  padding: 5px;
+  border: 1px solid black;
+}
